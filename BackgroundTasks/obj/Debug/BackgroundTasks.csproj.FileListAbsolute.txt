@@ -1,0 +1,36 @@
+C:\Users\INDERPREET\documents\visual studio 2015\Projects\App42\BackgroundTasks\bin\Debug\BackgroundTasks.winmd
+C:\Users\INDERPREET\documents\visual studio 2015\Projects\App42\BackgroundTasks\bin\Debug\BackgroundTasks.pdb
+C:\Users\INDERPREET\documents\visual studio 2015\Projects\App42\BackgroundTasks\bin\Debug\BackgroundTasks.pri
+C:\Users\INDERPREET\documents\visual studio 2015\Projects\App42\BackgroundTasks\obj\Debug\BackgroundTasks.winmd
+C:\Users\INDERPREET\documents\visual studio 2015\Projects\App42\BackgroundTasks\obj\Debug\BackgroundTasks.pdb
+C:\Users\INDERPREET\documents\visual studio 2015\Projects\App42\BackgroundTasks\obj\Debug\BackgroundTasks.winmdobj
+C:\Users\INDERPREET\documents\visual studio 2015\Projects\App42\BackgroundTasks\obj\Debug\BackgroundTasks.compile.pdb
+C:\Users\INDERPREET\documents\visual studio 2015\Projects\App42\BackgroundTasks\obj\Debug\priconfig.xml
+C:\Users\INDERPREET\documents\visual studio 2015\Projects\App42\BackgroundTasks\obj\Debug\priconfig.xml.intermediate
+C:\Users\INDERPREET\documents\visual studio 2015\Projects\App42\BackgroundTasks\obj\Debug\layout.resfiles
+C:\Users\INDERPREET\documents\visual studio 2015\Projects\App42\BackgroundTasks\obj\Debug\layout.resfiles.intermediate
+C:\Users\INDERPREET\documents\visual studio 2015\Projects\App42\BackgroundTasks\obj\Debug\resources.resfiles
+C:\Users\INDERPREET\documents\visual studio 2015\Projects\App42\BackgroundTasks\obj\Debug\resources.resfiles.intermediate
+C:\Users\INDERPREET\documents\visual studio 2015\Projects\App42\BackgroundTasks\obj\Debug\pri.resfiles
+C:\Users\INDERPREET\documents\visual studio 2015\Projects\App42\BackgroundTasks\obj\Debug\pri.resfiles.intermediate
+C:\Users\INDERPREET\documents\visual studio 2015\Projects\App42\BackgroundTasks\obj\Debug\qualifiers.txt
+C:\Users\INDERPREET\documents\visual studio 2015\Projects\App42\BackgroundTasks\obj\Debug\qualifiers.txt.intermediate
+C:\Users\INDERPREET\documents\visual studio 2015\Projects\App42\BackgroundTasks\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+E:\mriic_ece\App42\BackgroundTasks\bin\Debug\BackgroundTasks.winmd
+E:\mriic_ece\App42\BackgroundTasks\bin\Debug\BackgroundTasks.pdb
+E:\mriic_ece\App42\BackgroundTasks\bin\Debug\BackgroundTasks.pri
+E:\mriic_ece\App42\BackgroundTasks\obj\Debug\BackgroundTasks.winmd
+E:\mriic_ece\App42\BackgroundTasks\obj\Debug\BackgroundTasks.pdb
+E:\mriic_ece\App42\BackgroundTasks\obj\Debug\BackgroundTasks.winmdobj
+E:\mriic_ece\App42\BackgroundTasks\obj\Debug\BackgroundTasks.compile.pdb
+E:\mriic_ece\App42\BackgroundTasks\obj\Debug\priconfig.xml
+E:\mriic_ece\App42\BackgroundTasks\obj\Debug\priconfig.xml.intermediate
+E:\mriic_ece\App42\BackgroundTasks\obj\Debug\layout.resfiles
+E:\mriic_ece\App42\BackgroundTasks\obj\Debug\layout.resfiles.intermediate
+E:\mriic_ece\App42\BackgroundTasks\obj\Debug\resources.resfiles
+E:\mriic_ece\App42\BackgroundTasks\obj\Debug\resources.resfiles.intermediate
+E:\mriic_ece\App42\BackgroundTasks\obj\Debug\pri.resfiles
+E:\mriic_ece\App42\BackgroundTasks\obj\Debug\pri.resfiles.intermediate
+E:\mriic_ece\App42\BackgroundTasks\obj\Debug\qualifiers.txt
+E:\mriic_ece\App42\BackgroundTasks\obj\Debug\qualifiers.txt.intermediate
+E:\mriic_ece\App42\BackgroundTasks\obj\Debug\MultipleQualifiersPerDimensionFound.txt

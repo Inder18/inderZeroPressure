@@ -1,0 +1,123 @@
+﻿<Page
+    x:Class="App42.learn_more"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:App42"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid x:Name="LayoutRoot">
+
+        <Grid.ChildrenTransitions>
+            <TransitionCollection>
+                <EntranceThemeTransition/>
+            </TransitionCollection>
+        </Grid.ChildrenTransitions>
+
+   <!--     <Grid.RowDefinitions>
+            
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>-->
+
+        <!-- Title Panel -->
+        <!--<StackPanel Grid.Row="0" Margin="19,0,0,0">
+            <TextBlock Text="MY APPLICATION" Style="{ThemeResource TitleTextBlockStyle}" Margin="0,12,0,0"/>
+            <TextBlock Text="page title" Margin="0,-6.5,0,26.5" Style="{ThemeResource HeaderTextBlockStyle}" CharacterSpacing="{ThemeResource PivotHeaderItemCharacterSpacing}"/>
+        </StackPanel>-->
+
+        <!--TODO: Content should be placed within the following grid-->
+
+        <Grid x:Name="ContentRoot" >
+        <Pivot Title="Learn More about Pressure Ulcers" Background="#38325E" Margin="0,27,0,0">
+            <PivotItem Header="About" >
+                <ScrollViewer>
+                    <StackPanel Orientation="Vertical">
+
+                        <TextBlock Text="Pressure ulcers, also known as pressure sores, bedsores and decubitus ulcers, are localized injuries to the skin and/or underlying tissue that usually occur over a bony prominence as a result of pressure caused by lying in same position for the longer time." FontSize="25" TextWrapping="WrapWholeWords" 
+                                   />
+                        <Image Source="Assets/fact.png"/>
+                    </StackPanel>
+                </ScrollViewer>
+            </PivotItem>
+            <PivotItem Header="Symptom">
+                <ScrollViewer>
+                    <StackPanel Orientation="Vertical">
+                        <TextBlock Text="Depending on the stage, you may have any of the following:" FontSize="20" TextWrapping="WrapWholeWords" FontWeight="Bold" Foreground="Black"/>
+                        <TextBlock Text=" •	Skin Discoloration." FontSize="19"  TextWrapping="WrapWholeWords" Margin="0,10,0,0"/>
+                        <TextBlock Text=" •	Pain in the Affected Area." FontSize="19" TextWrapping="WrapWholeWords"/>
+                        <TextBlock Text=" •	Infection." FontSize="19"  TextWrapping="WrapWholeWords"/>
+                        <TextBlock Text=" •	Open Skin." FontSize="19"  TextWrapping="WrapWholeWords"/>
+                        <TextBlock Text=" •	Skin that doesn't lighten to the touch." FontSize="19" TextWrapping="WrapWholeWords"/>
+                        <TextBlock Text=" •	Skin that is softer or firmer than the surrounding skin." FontSize="19" TextWrapping="WrapWholeWords"/>
+
+                        <TextBlock Text="Pressure Ulcers occur most commonly on the -" FontSize="20" TextWrapping="WrapWholeWords" FontWeight="Bold" Margin="0,10,0,0" Foreground="Black"/>
+                        <TextBlock Text="•	Buttocks" FontSize="19" TextWrapping="WrapWholeWords" Margin="0,10,0,0"/>
+                        <TextBlock Text="•	Elbow " FontSize="19" TextWrapping="WrapWholeWords"/>
+                        <TextBlock Text=" •	Hips" FontSize="19" TextWrapping="WrapWholeWords"/>
+                        <TextBlock Text="•	Heels " FontSize="19" TextWrapping="WrapWholeWords"/>
+                        <TextBlock Text="•	Ankles " FontSize="19" TextWrapping="WrapWholeWords"/>
+                        <TextBlock Text="•	Shoulders " FontSize="19" TextWrapping="WrapWholeWords"/>
+                        <TextBlock Text="•	Back " FontSize="19" TextWrapping="WrapWholeWords"/>
+                        <TextBlock Text="•	Back of head " FontSize="19" TextWrapping="WrapWholeWords"/>
+                    </StackPanel>
+                </ScrollViewer>
+            </PivotItem>
+                <PivotItem Header="Stages" >
+                    <ScrollViewer>
+                        <StackPanel Orientation="Vertical">
+
+                            <TextBlock Text="Pressure sores categorized as deep tissue injury may be purple or maroon. This may be an area of skin or blood-filled blister due to damage of soft tissue from pressure. The area around may be sore, firm, mushy, boggy, warmer, or cooler compared with tissue nearby"
+                                       FontSize="20" TextWrapping="WrapWholeWords"/>
+                            <TextBlock Text="Pressure sores are grouped by their severity. Stage I is the earliest stage. Stage IV is the worst." TextWrapping="WrapWholeWords" FontSize="20" Margin="0,10,0,0" Foreground="Black" FontWeight="Bold"/>
+                            <TextBlock Text="•	Stage I: A reddened area on the skin that, when pressed, does not turn white. This is a sign that a pressure ulcer is starting to develop." TextWrapping="WrapWholeWords" FontSize="15" Margin="0,10,0,0" FontWeight="Light"/>
+                            <TextBlock Text="•	Stage II: The skin blisters or forms an open sore. The area around the sore may be red and irritated" TextWrapping="WrapWholeWords" FontSize="15" Margin="0,10,0,0" FontWeight="Light"/>
+                            <TextBlock Text="•	Stage III: The skin now develops an open, sunken hole called a crater. There is damage to the tissue below the skin" TextWrapping="WrapWholeWords" FontSize="15" Margin="0,10,0,0" FontWeight="Light"/>
+                            <TextBlock Text="•	Stage IV: The pressure ulcer has become so deep that there is damage to the muscle and bone, and sometimes to tendons and joints." TextWrapping="WrapWholeWords" FontSize="15" Margin="0,10,0,0" FontWeight="Light"/>
+                            <TextBlock Text="Pressure sores are unstageable when the tissue at the base of the ulcer is covered by dead skin that is yellow, tan, green, or brown. " TextWrapping="WrapWholeWords" FontSize="15" Margin="0,10,0,0" FontWeight="Light"/>
+                            <TextBlock Text="DO NOT" TextWrapping="WrapWholeWords" FontSize="20" Margin="0,10,0,0" FontWeight="Bold"/>
+                            <TextBlock Text="•	Do not massage the skin near or on the ulcer. It can cause more skin damage" TextWrapping="WrapWholeWords" FontSize="15" Margin="0,10,0,0" FontWeight="Light"/>
+                            <TextBlock Text="•	Do NOT use a donut-shaped or ring-shaped cushions. They interfere with blood flow to that area and cause complications." TextWrapping="WrapWholeWords" FontSize="15" Margin="0,10,0,0" FontWeight="Light"/>
+                            
+                            
+                        </StackPanel>
+                    </ScrollViewer>
+                </PivotItem>
+                <PivotItem Header="Care">
+                    <ScrollViewer>
+                        <StackPanel>
+                        <TextBlock FontSize="20" Text="Stage I or II sores will heal if cared for carefully. Stage III and IV sores are harder to treat and may take a long time to heal. Here's how to care for a pressure sore at home." TextWrapping="WrapWholeWords" />
+                            <TextBlock  Text="Relieve the pressure on the area." TextWrapping="WrapWholeWords" FontSize="15" Margin="0,10,0,0" Foreground="Black" FontWeight="Bold"/>
+                            <TextBlock  Text="•	Use special pillows, foam cushions, booties, or mattress pads to reduce the pressure. Some pads are water- or air-filled to help support and cushion the area. What type of cushion you use depends on your wound and whether you are in bed or in a wheelchair. Talk with your doctor about what choices would be best for you, including what shapes and types of material." TextWrapping="WrapWholeWords" FontSize="15" Margin="0,10,0,0"/>
+                            <TextBlock  Text="•	Change positions often. If you are in a wheelchair, try to change your position every 15 minutes. If you are in bed, you should be moved about every 2 hours." TextWrapping="WrapWholeWords" FontSize="15" Margin="0,10,0,0"/>
+                            <TextBlock  Text="Avoid further injury or friction." TextWrapping="WrapWholeWords" FontSize="15" Margin="0,10,0,0" Foreground="Black" FontWeight="Bold"/>
+                            <TextBlock  Text="•	Powder your sheets lightly so your skin doesn't rub on them in bed." TextWrapping="WrapWholeWords" FontSize="15" Margin="0,10,0,0"/>
+                            <TextBlock  Text="•	Avoid slipping or sliding as you move positions. Try to avoid positions that put pressure on your sore." TextWrapping="WrapWholeWords" FontSize="15" Margin="0,10,0,0"/>
+                            <TextBlock  Text="• Care for healthy skin by keeping it clean and moisturized.	" TextWrapping="WrapWholeWords" FontSize="15" Margin="0,10,0,0"/>
+                            <TextBlock  Text="•	If the pressure sore changes or a new one forms, tell your doctor" TextWrapping="WrapWholeWords" FontSize="15" Margin="0,10,0,0"/>
+                            <TextBlock  Text="Take care of your health." TextWrapping="WrapWholeWords" FontSize="15" Margin="0,10,0,0" Foreground="Black" FontWeight="Bold"/>
+                            <TextBlock  Text="• Eat a healthy, balanced diet. Getting the right nutrition will help you heal.	" TextWrapping="WrapWholeWords" FontSize="15" Margin="0,10,0,0"/>
+                            <TextBlock  Text="•	Lose excess weight." TextWrapping="WrapWholeWords" FontSize="15" Margin="0,10,0,0"/>
+                            <TextBlock  Text="•	Get plenty of sleep." TextWrapping="WrapWholeWords" FontSize="15" Margin="0,10,0,0"/>
+                            <TextBlock  Text="•	Ask your doctor if it's OK to do gentle stretches or light exercises. This can help improve circulation. " TextWrapping="WrapWholeWords" FontSize="15" Margin="0,10,0,0"/>
+                            <TextBlock  Text="When to call the doctor." TextWrapping="WrapWholeWords" FontSize="15" Margin="0,10,0,0" Foreground="Black" FontWeight="Bold"/>
+                            <TextBlock  Text="Call your doctor if you develop blisters or an open sore." TextWrapping="WrapWholeWords" FontSize="15" Margin="0,10,0,0" Foreground="Black" FontWeight="SemiBold"/>
+                            <TextBlock  Text="Call immediately if there are signs of infection, such as:" TextWrapping="WrapWholeWords" FontSize="15" Margin="0,10,0,0" Foreground="Black" FontWeight="SemiBold"/>
+                            <TextBlock  Text="• A foul odor from the sore." TextWrapping="WrapWholeWords" FontSize="15" Margin="0,10,0,0"/>
+                            <TextBlock  Text="•	Pus coming out of the sore." TextWrapping="WrapWholeWords" FontSize="15" Margin="0,10,0,0"/>
+                            <TextBlock  Text="•	Redness and tenderness around the sore." TextWrapping="WrapWholeWords" FontSize="15" Margin="0,10,0,0"/>
+                            <TextBlock  Text="•	Skin close to the sore is warm and/or swollen." TextWrapping="WrapWholeWords" FontSize="15" Margin="0,10,0,0"/>
+                            <TextBlock  Text="•	Fever" TextWrapping="WrapWholeWords" FontSize="15" Margin="0,10,0,0"/>
+                            
+                            
+                        </StackPanel>
+                    </ScrollViewer>
+                </PivotItem>
+            </Pivot>
+        
+       
+    </Grid>
+    </Grid>
+</Page>
+

@@ -1,0 +1,2 @@
+E:\mriic_ece\App42\App42\App42.csproj;neutral
+E:\mriic_ece\App42\BackgroundTasks\BackgroundTasks.csproj;neutral

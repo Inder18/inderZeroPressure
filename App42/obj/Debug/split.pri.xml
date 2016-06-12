@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PriInfo>
+	<ResourceMap name="216b5e22-bfe9-49d4-bedf-f0a02ad51ea3" version="1.0" primary="true">
+		<Qualifiers>
+			<Scale>240</Scale>
+		</Qualifiers>
+		<ResourceMapSubtree name="Files">
+			<NamedResource name="App.xbf" uri="ms-resource://216b5e22-bfe9-49d4-bedf-f0a02ad51ea3/Files/App.xbf">
+				<Candidate type="Path">
+					<Value>App.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="App42.xr.xml" uri="ms-resource://216b5e22-bfe9-49d4-bedf-f0a02ad51ea3/Files/App42.xr.xml">
+				<Candidate type="Path">
+					<Value>App42.xr.xml</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Register.xbf" uri="ms-resource://216b5e22-bfe9-49d4-bedf-f0a02ad51ea3/Files/Register.xbf">
+				<Candidate type="Path">
+					<Value>Register.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="sign_in.xbf" uri="ms-resource://216b5e22-bfe9-49d4-bedf-f0a02ad51ea3/Files/sign_in.xbf">
+				<Candidate type="Path">
+					<Value>sign_in.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="SplashScreen.xbf" uri="ms-resource://216b5e22-bfe9-49d4-bedf-f0a02ad51ea3/Files/SplashScreen.xbf">
+				<Candidate type="Path">
+					<Value>SplashScreen.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="StoreManifest.xml" uri="ms-resource://216b5e22-bfe9-49d4-bedf-f0a02ad51ea3/Files/StoreManifest.xml">
+				<Candidate type="Path">
+					<Value>StoreManifest.xml</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="user_Page.xbf" uri="ms-resource://216b5e22-bfe9-49d4-bedf-f0a02ad51ea3/Files/user_Page.xbf">
+				<Candidate type="Path">
+					<Value>user_Page.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<ResourceMapSubtree name="Assets">
+				<NamedResource name="aboutus.png" uri="ms-resource://216b5e22-bfe9-49d4-bedf-f0a02ad51ea3/Files/Assets/aboutus.png">
+					<Candidate type="Path">
+						<Value>Assets\aboutus.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="animals1.png" uri="ms-resource://216b5e22-bfe9-49d4-bedf-f0a02ad51ea3/Files/Assets/animals1.png">
+					<Candidate type="Path">
+						<Value>Assets\animals1.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Back.png" uri="ms-resource://216b5e22-bfe9-49d4-bedf-f0a02ad51ea3/Files/Assets/Back.png">
+					<Candidate type="Path">
+						<Value>Assets\Back.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="cart.png" uri="ms-resource://216b5e22-bfe9-49d4-bedf-f0a02ad51ea3/Files/Assets/cart.png">
+					<Candidate type="Path">
+						<Value>Assets\cart.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="faq.png" uri="ms-resource://216b5e22-bfe9-49d4-bedf-f0a02ad51ea3/Files/Assets/faq.png">
+					<Candidate type="Path">
+						<Value>Assets\faq.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="feedback.png" uri="ms-resource://216b5e22-bfe9-49d4-bedf-f0a02ad51ea3/Files/Assets/feedback.png">
+					<Candidate type="Path">
+						<Value>Assets\feedback.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Left side.png" uri="ms-resource://216b5e22-bfe9-49d4-bedf-f0a02ad51ea3/Files/Assets/Left%20side.png">
+					<Candidate type="Path">
+						<Value>Assets\Left side.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Logo.png" uri="ms-resource://216b5e22-bfe9-49d4-bedf-f0a02ad51ea3/Files/Assets/Logo.png">
+					<Candidate qualifiers="Scale-240" isDefault="true" type="Path">
+						<Value>Assets\Logo.scale-240.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="logo106.png" uri="ms-resource://216b5e22-bfe9-49d4-bedf-f0a02ad51ea3/Files/Assets/logo106.png">
+					<Candidate qualifiers="Scale-240" isDefault="true" type="Path">
+						<Value>Assets\logo106.scale-240.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="logosmall.png" uri="ms-resource://216b5e22-bfe9-49d4-bedf-f0a02ad51ea3/Files/Assets/logosmall.png">
+					<Candidate type="Path">
+						<Value>Assets\logosmall.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="menu2.png" uri="ms-resource://216b5e22-bfe9-49d4-bedf-f0a02ad51ea3/Files/Assets/menu2.png">
+					<Candidate type="Path">
+						<Value>Assets\menu2.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="opensplash.png" uri="ms-resource://216b5e22-bfe9-49d4-bedf-f0a02ad51ea3/Files/Assets/opensplash.png">
+					<Candidate type="Path">
+						<Value>Assets\opensplash.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="rate.png" uri="ms-resource://216b5e22-bfe9-49d4-bedf-f0a02ad51ea3/Files/Assets/rate.png">
+					<Candidate type="Path">
+						<Value>Assets\rate.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="reachus.png" uri="ms-resource://216b5e22-bfe9-49d4-bedf-f0a02ad51ea3/Files/Assets/reachus.png">
+					<Candidate type="Path">
+						<Value>Assets\reachus.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Right side.png" uri="ms-resource://216b5e22-bfe9-49d4-bedf-f0a02ad51ea3/Files/Assets/Right%20side.png">
+					<Candidate type="Path">
+						<Value>Assets\Right side.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="settings.png" uri="ms-resource://216b5e22-bfe9-49d4-bedf-f0a02ad51ea3/Files/Assets/settings.png">
+					<Candidate type="Path">
+						<Value>Assets\settings.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="signin.png" uri="ms-resource://216b5e22-bfe9-49d4-bedf-f0a02ad51ea3/Files/Assets/signin.png">
+					<Candidate type="Path">
+						<Value>Assets\signin.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="SmallLogo.png" uri="ms-resource://216b5e22-bfe9-49d4-bedf-f0a02ad51ea3/Files/Assets/SmallLogo.png">
+					<Candidate qualifiers="Scale-240" isDefault="true" type="Path">
+						<Value>Assets\SmallLogo.scale-240.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="SplashScreen.png" uri="ms-resource://216b5e22-bfe9-49d4-bedf-f0a02ad51ea3/Files/Assets/SplashScreen.png">
+					<Candidate qualifiers="Scale-240" isDefault="true" type="Path">
+						<Value>Assets\SplashScreen.scale-240.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Square44x44Logo.png" uri="ms-resource://216b5e22-bfe9-49d4-bedf-f0a02ad51ea3/Files/Assets/Square44x44Logo.png">
+					<Candidate qualifiers="Scale-240" isDefault="true" type="Path">
+						<Value>Assets\Square44x44Logo.scale-240.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Square71x71Logo.png" uri="ms-resource://216b5e22-bfe9-49d4-bedf-f0a02ad51ea3/Files/Assets/Square71x71Logo.png">
+					<Candidate qualifiers="Scale-240" isDefault="true" type="Path">
+						<Value>Assets\Square71x71Logo.scale-240.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="StoreLogo.png" uri="ms-resource://216b5e22-bfe9-49d4-bedf-f0a02ad51ea3/Files/Assets/StoreLogo.png">
+					<Candidate qualifiers="Scale-240" isDefault="true" type="Path">
+						<Value>Assets\StoreLogo.scale-240.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="WideLogo.png" uri="ms-resource://216b5e22-bfe9-49d4-bedf-f0a02ad51ea3/Files/Assets/WideLogo.png">
+					<Candidate qualifiers="Scale-240" isDefault="true" type="Path">
+						<Value>Assets\WideLogo.scale-240.png</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+	</ResourceMap>
+</PriInfo>

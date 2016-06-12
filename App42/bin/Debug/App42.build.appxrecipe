@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>INDER</Machine>
+    <WindowsUser>INDERPREET</WindowsUser>
+    <TargetPlatformIdentifier>WindowsPhoneApp</TargetPlatformIdentifier>
+    <TargetOsVersion>6.3</TargetOsVersion>
+    <TargetOsDescription>Windows Phone 8.1</TargetOsDescription>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>216b5e22-bfe9-49d4-bedf-f0a02ad51ea3</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\INDERPREET\Documents\Visual Studio 2015\Projects\App42\App42\obj\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\INDERPREET\Documents\Visual Studio 2015\Projects\App42\App42\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\INDERPREET\Documents\Visual Studio 2015\Projects\App42\App42\bin\Debug\App42.exe">
+      <PackagePath>App42.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\INDERPREET\Documents\Visual Studio 2015\Projects\App42\BackgroundTasks\bin\Debug\BackgroundTasks.winmd">
+      <PackagePath>BackgroundTasks.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\INDERPREET\Documents\Visual Studio 2015\Projects\App41\App41\packages\DrawerLayout.1.0.4\lib\DrawerLayout.dll">
+      <PackagePath>DrawerLayout.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\INDERPREET\Documents\Visual Studio 2015\Projects\App42\App42\Assets\aboutus.png">
+      <PackagePath>Assets\aboutus.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\INDERPREET\Documents\Visual Studio 2015\Projects\App42\App42\Assets\about_pu.png">
+      <PackagePath>Assets\about_pu.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\INDERPREET\Documents\Visual Studio 2015\Projects\App42\App42\Assets\animals1.png">
+      <PackagePath>Assets\animals1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\INDERPREET\Documents\Visual Studio 2015\Projects\App42\App42\Assets\Back.png">
+      <PackagePath>Assets\Back.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\INDERPREET\Documents\Visual Studio 2015\Projects\App42\App42\Assets\BadgeLogo.scale-240.png">
+      <PackagePath>Assets\BadgeLogo.scale-240.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\INDERPREET\Documents\Visual Studio 2015\Projects\App42\App42\Assets\cart.png">
+      <PackagePath>Assets\cart.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\INDERPREET\Documents\Visual Studio 2015\Projects\App42\App42\Assets\fact.png">
+      <PackagePath>Assets\fact.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\INDERPREET\Documents\Visual Studio 2015\Projects\App42\App42\Assets\faq.png">
+      <PackagePath>Assets\faq.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\INDERPREET\Documents\Visual Studio 2015\Projects\App42\App42\Assets\fb.png">
+      <PackagePath>Assets\fb.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\INDERPREET\Documents\Visual Studio 2015\Projects\App42\App42\Assets\feedback.png">
+      <PackagePath>Assets\feedback.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\INDERPREET\Documents\Visual Studio 2015\Projects\App42\App42\Assets\google.png">
+      <PackagePath>Assets\google.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\INDERPREET\Documents\Visual Studio 2015\Projects\App42\App42\Assets\Left side.png">
+      <PackagePath>Assets\Left side.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\INDERPREET\Documents\Visual Studio 2015\Projects\App42\App42\Assets\Logo.scale-140.png">
+      <PackagePath>Assets\Logo.scale-140.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\INDERPREET\Documents\Visual Studio 2015\Projects\App42\App42\Assets\Logo.scale-240.png">
+      <PackagePath>Assets\Logo.scale-240.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\INDERPREET\Documents\Visual Studio 2015\Projects\App42\App42\Assets\logo106.scale-240.png">
+      <PackagePath>Assets\logo106.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\INDERPREET\Documents\Visual Studio 2015\Projects\App42\App42\Assets\logosmall.png">
+      <PackagePath>Assets\logosmall.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\INDERPREET\Documents\Visual Studio 2015\Projects\App42\App42\Assets\logout.png">
+      <PackagePath>Assets\logout.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\INDERPREET\Documents\Visual Studio 2015\Projects\App42\App42\Assets\map.png">
+      <PackagePath>Assets\map.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\INDERPREET\Documents\Visual Studio 2015\Projects\App42\App42\Assets\menu2.png">
+      <PackagePath>Assets\menu2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\INDERPREET\Documents\Visual Studio 2015\Projects\App42\App42\Assets\opensplash.png">
+      <PackagePath>Assets\opensplash.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\INDERPREET\Documents\Visual Studio 2015\Projects\App42\App42\Assets\rate.png">
+      <PackagePath>Assets\rate.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\INDERPREET\Documents\Visual Studio 2015\Projects\App42\App42\Assets\reachus.png">
+      <PackagePath>Assets\reachus.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\INDERPREET\Documents\Visual Studio 2015\Projects\App42\App42\Assets\Right side.png">
+      <PackagePath>Assets\Right side.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\INDERPREET\Documents\Visual Studio 2015\Projects\App42\App42\Assets\settings.png">
+      <PackagePath>Assets\settings.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\INDERPREET\Documents\Visual Studio 2015\Projects\App42\App42\Assets\signin.png">
+      <PackagePath>Assets\signin.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\INDERPREET\Documents\Visual Studio 2015\Projects\App42\App42\Assets\SmallLogo.scale-240.png">
+      <PackagePath>Assets\SmallLogo.scale-240.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\INDERPREET\Documents\Visual Studio 2015\Projects\App42\App42\Assets\SplashScreen.scale-240.png">
+      <PackagePath>Assets\SplashScreen.scale-240.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\INDERPREET\Documents\Visual Studio 2015\Projects\App42\App42\Assets\Square150x150Logo.scale-240.png">
+      <PackagePath>Assets\Square150x150Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\INDERPREET\Documents\Visual Studio 2015\Projects\App42\App42\Assets\Square44x44Logo.scale-240.png">
+      <PackagePath>Assets\Square44x44Logo.scale-240.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\INDERPREET\Documents\Visual Studio 2015\Projects\App42\App42\Assets\Square71x71Logo.scale-240.png">
+      <PackagePath>Assets\Square71x71Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\INDERPREET\Documents\Visual Studio 2015\Projects\App42\App42\Assets\StoreLogo.scale-240.png">
+      <PackagePath>Assets\StoreLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\INDERPREET\Documents\Visual Studio 2015\Projects\App42\App42\Assets\twitter.png">
+      <PackagePath>Assets\twitter.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\INDERPREET\Documents\Visual Studio 2015\Projects\App42\App42\Assets\WideLogo.scale-240.png">
+      <PackagePath>Assets\WideLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\INDERPREET\Documents\Visual Studio 2015\Projects\App42\App42\StoreManifest.xml">
+      <PackagePath>StoreManifest.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\INDERPREET\Documents\Visual Studio 2015\Projects\App42\App42\bin\Debug\App42.xr.xml">
+      <PackagePath>App42.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\INDERPREET\Documents\Visual Studio 2015\Projects\App42\App42\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\INDERPREET\Documents\Visual Studio 2015\Projects\App42\App42\bin\Debug\about_us.xbf">
+      <PackagePath>about_us.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\INDERPREET\Documents\Visual Studio 2015\Projects\App42\App42\bin\Debug\learn_more.xbf">
+      <PackagePath>learn_more.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\INDERPREET\Documents\Visual Studio 2015\Projects\App42\App42\bin\Debug\reach_us.xbf">
+      <PackagePath>reach_us.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\INDERPREET\Documents\Visual Studio 2015\Projects\App42\App42\bin\Debug\Register.xbf">
+      <PackagePath>Register.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\INDERPREET\Documents\Visual Studio 2015\Projects\App42\App42\bin\Debug\sign_in.xbf">
+      <PackagePath>sign_in.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\INDERPREET\Documents\Visual Studio 2015\Projects\App42\App42\bin\Debug\SplashScreen.xbf">
+      <PackagePath>SplashScreen.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\INDERPREET\Documents\Visual Studio 2015\Projects\App42\App42\bin\Debug\user_Page.xbf">
+      <PackagePath>user_Page.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\INDERPREET\Documents\Visual Studio 2015\Projects\App42\App42\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
