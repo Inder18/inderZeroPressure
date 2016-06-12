@@ -1,0 +1,48 @@
+﻿<Page
+    x:Class="App42.reach_us"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:App42"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid x:Name="LayoutRoot">
+
+        <Grid.ChildrenTransitions>
+            <TransitionCollection>
+                <EntranceThemeTransition/>
+            </TransitionCollection>
+        </Grid.ChildrenTransitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Title Panel -->
+        <StackPanel Grid.Row="0" Background="#AC2728" Height="70px" Orientation="Horizontal">
+            <Image Source="Assets/reachus.png"/>
+            <TextBlock Text="REACH US" FontSize="30" VerticalAlignment="Center" Style="{ThemeResource TitleTextBlockStyle}"/>
+        </StackPanel>
+
+        <!--TODO: Content should be placed within the following grid-->
+        <Grid Grid.Row="1" x:Name="ContentRoot" Background="White">
+            <StackPanel>
+                <Image Source="Assets/map.png" Margin="10,20,10,0" Height="250" Stretch="Fill"/>
+                <TextBlock Text="ADDRESS" Foreground="Black" FontSize="20" Margin="10" CharacterSpacing="300" HorizontalAlignment="Center" Style="{StaticResource TitleTextBlockStyle}"/>
+                <TextBlock TextWrapping="WrapWholeWords" Height="100" FontSize="22" Text="House No - 1338, Sector 18, Faridabad, Haryana, India, Pincode - 121002" Foreground="Black" Margin="10,0,10,0" Style="{StaticResource ListViewItemSubheaderTextBlockStyle}" />
+                <TextBlock Text="CONTACT US"  Style="{StaticResource TitleTextBlockStyle}" Foreground="Black" FontSize="20" CharacterSpacing="300" HorizontalAlignment="Center"/>
+                <TextBlock Margin="10" Foreground="Black" Text="9717390967, 9210921000, 7529949794" FontSize="20" Style="{StaticResource ListViewItemSubheaderTextBlockStyle}" HorizontalAlignment="Center"/>
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                    <Image Source="Assets/fb.png" Height="50" Width="70"/>
+                    <Image Source="Assets/google.png" Height="50" Width="70"/>
+                    <Image Source="Assets/twitter.png" Height="50" Width="70"/>
+
+                </StackPanel>
+
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Page>

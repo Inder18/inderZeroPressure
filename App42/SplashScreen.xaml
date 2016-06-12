@@ -1,0 +1,24 @@
+﻿<Page
+    x:Class="App42.SplashScreen"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:App42"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid x:Name="LayoutRoot">
+
+        <Grid.ChildrenTransitions>
+            <TransitionCollection>
+                <EntranceThemeTransition/>
+            </TransitionCollection>
+        </Grid.ChildrenTransitions>
+        <!--TODO: Content should be placed within the following grid-->
+        <Grid>
+            <Image x:Name="extendedSplashImage" Source="Assets/opensplash.png" Stretch="Fill"/>
+            <ProgressRing IsActive="True" Height="90" Width="90" HorizontalAlignment="Center" VerticalAlignment="Bottom" Background="#27a9ae"/>
+        </Grid>
+    </Grid>
+</Page>

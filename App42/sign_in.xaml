@@ -1,0 +1,50 @@
+﻿<Page
+    x:Class="App42.sign_in"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:App42"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid x:Name="LayoutRoot">
+
+        <Grid.ChildrenTransitions>
+            <TransitionCollection>
+                <EntranceThemeTransition/>
+            </TransitionCollection>
+        </Grid.ChildrenTransitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Title Panel -->
+        <StackPanel Grid.Row="0" Background="#3A9AD9" Height="70px" Orientation="Horizontal">
+            
+            <Image Source="Assets/signin.png" Width="100" Height="60"/>
+            <TextBlock Text="SIGN IN" FontSize="30" VerticalAlignment="Center" Style="{ThemeResource TitleTextBlockStyle}"/>
+        </StackPanel>
+        <!--TODO: Content should be placed within the following grid-->
+        <Grid Grid.Row="1" x:Name="ContentRoot" Background="White">
+            <StackPanel Orientation="Vertical" Margin="20,30,20,0">
+                
+                <TextBox x:Name="signin_email" PlaceholderText="Email" BorderBrush="#EB7260" InputScope="EmailSmtpAddress"/>
+                <PasswordBox x:Name="signin_pswd" PlaceholderText="Password" BorderBrush="#EB7260" />
+               <!-- <HyperlinkButton Foreground="Black" FontSize="17" HorizontalAlignment="Center" FontWeight="SemiBold">
+                    <TextBlock>
+                    <Underline>
+                        <Run>Forgot password?</Run>
+                    </Underline>
+                    </TextBlock>
+                </HyperlinkButton>-->
+                <Button x:Name="signin_button" Content="Sign in" Foreground="White" Background="#354458" HorizontalAlignment="Center" Width="200" Height="70" Click="signin_button_Click"/>
+                <TextBlock Text="Don't have an account?" Foreground="Black" FontSize="18" HorizontalAlignment="Center" Style="{StaticResource BaseTextBlockStyle}"/>
+                <Button x:Name="sign_up"  Content="Sign Up" Foreground="White" Background="#D93240" HorizontalAlignment="Center" Width="200" Height="70" Click="sign_up_Click"/>
+
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Page>
